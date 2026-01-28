@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+<meta charset='UTF-8'>
+<title>Pour toi</title>
+<style>
+    body {
+        font-family: ""Segoe UI"", sans-serif;
+        background: white;
+        margin: 0;
+        padding: 40px;
+    }
+    .container {
+        max-width: 700px;
+        margin: auto;
+        position: relative;
+    }
+    h1 {
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .signature {
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    .help {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: yellow;
+        color: black;
+        font-weight: bold;
+        width: 30px;
+        height: 30px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        user-select: none;
+    }
+    .hidden-name {
+        color: white;
+        background: white;
+    }
+</style>
+</head>
+<body>
+<div class='container'>
+    <div class='help' onclick='showHint()'>?</div>
+    <h1>Un petit message rien que pour toi 💖</h1>
+    <div class='signature'>
+        Signé : <span class='hidden-name'>Yanis</span>
+    </div>
+</div>
+<script>
+function showHint() {
+    alert(""Indice : demande à un pro de l'informatique pour découvrir qui a écrit ce message 😉"");
+}
+</script>
+</body>
+</html>"
