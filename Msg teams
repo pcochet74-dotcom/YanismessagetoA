@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Détection du mot citron</title>
+</head>
+<body>
+    <h2>Écris un mot :</h2>
+    <input type="text" id="champ" placeholder="Tape ici...">
+
+    <script>
+        const input = document.getElementById("champ");
+
+        input.addEventListener("input", () => {
+            const valeur = input.value.trim().toLowerCase();
+
+            if (valeur === "citron") {
+                window.location.href = "https://teams.live.com/meet/9312645952415?p=Tu8nCugUeO6ZVvcVPp";
+            }
+        });
+    </script>
+</body>
+</html>
